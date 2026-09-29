@@ -134,10 +134,16 @@
   "vouch.error.self": "You can't vouch for yourself.",
   "vouch.error.limit": "You've hit today's vouch limit — try again tomorrow.",
   "vouch.error.xp": "You need a little more Social XP to stake this vouch.",
+  "vouch.error.noteTooLong": "Keep the note to {max} characters or fewer.",
 
   "quests.page.title": "Verified quests",
   "quests.page.subtitle": "These are checked by the attester, not self-reported. Each completion mints {earnedXP} — the only kind that can ever unlock USDC. Keep a weekly streak going to climb faster.",
   "quests.page.earnedXP": "Earned XP",
+  "quests.week.resetsInDays": "resets in {days}d {hours}h",
+  "quests.week.resetsInHours": "resets in {hours}h {minutes}m",
+  "quests.week.resetsInMinutes": "resets in {minutes}m",
+  "quests.week.resetting": "resetting now…",
+  "quests.week.resetsAt": "The streak week resets {when}",
 
   "rewards.page.title": "Spend your reputation",
   "rewards.page.subtitle": "Tip anyone in USDC, claim rank rewards once your Earned XP clears the bar, and unlock perks gated by your standing.",
@@ -198,7 +204,7 @@
   "howItWorks.lim06.t": "Proof-of-funding",
   "howItWorks.lim06.d": "On mainnet, a wallet must have received external value before it can cash out.",
   "howItWorks.devs.title": "For developers",
-  "howItWorks.devs.body": "alvinmunk emits a canonical attestation primitive. Any app can read a wallet's reputation with one call.",
+  "howItWorks.devs.body": "alvinmunk emits a canonical attestation primitive. Any app can read a wallet's reputation straight from the contract, with no API key and no backend.",
   "howItWorks.devs.openApp": "Open the app",
 
   "badges.frame": "badges // milestones",
@@ -230,5 +236,19 @@
   "badges.generous.name": "Generous",
   "badges.generous.by": "first tip to {name}",
   "badges.generous.desc": "First tip sent",
-  "badges.generous.next": "No tip sent yet"
+  "badges.generous.next": "No tip sent yet",
+
+  "identity.bio.label": "Bio",
+  "identity.bio.placeholder": "One line about you — plain text",
+  "identity.bio.bytesHint": "Counted in bytes: accented letters take 2, most emoji 4.",
+  "identity.bio.save": "save",
+  "identity.bio.cancel": "Cancel bio edit",
+  "identity.bio.add": "add a bio…",
+  "identity.bio.edit": "Edit bio",
+  "identity.meta.saving": "saving on-chain…",
+  "identity.meta.saved": "Saved on-chain — anyone opening your profile sees it.",
+  "identity.meta.unsupported": "Saved on this device. Public faces and bios aren't live on this network yet.",
+  "identity.meta.error.noHandle": "Claim your @handle on-chain first — then your face and bio can go public.",
+  "identity.meta.error.bio": "That bio can't be saved — keep it to one line of plain text, 80 bytes max.",
+  "identity.meta.error.avatar": "The registry doesn't know that face yet — pick another."
 }
